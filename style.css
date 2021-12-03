@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#fundo{
+    background-image: url(Apostas-em-Modo-Binario.jpg);
+    width: 100%;
+}
+
+#form{
+    background-color: #000986;
+    width: 50%;
+    height: 550px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 50px;
+    border-radius: 7px;
+}
+
+.botao_converter{
+    background-color: rgb(223, 208, 0);
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    color: rgb(58, 58, 58);
+    margin-top: 10px;
+}
+
+#opcao1{
+    height: 40px;
+    border-radius: 7px;
+}
+
+#texto_label{
+    color: white;
+}
+
+#titulo{
+    color: white;
+    margin-top: auto;
+}

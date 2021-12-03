@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CONVERSOR</title>
+      
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body id="fundo">
+
+        <div id="form">
+            <h4 id="titulo">Conversor Decimal, Binário, Hexa e Octal</h4>
+
+        <div class="mb-3">
+            
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Digite aqui o número"><br>
+            <label for="seletor1" id="texto_label">De</label><br>
+            <select name="opcao1" id="opcao1"><br>
+            <option value="">Binário</option>
+                <option value="">Decimal</option>
+                <option value="">Octal</option>
+                <option value="">Hexadecimal</option>
+            </select><br><br>
+
+            <label for="seletor2" id="texto_label">Para</label><br>
+            <select name="opcao1" id="opcao1">
+                <option value="">Binário</option>
+                <option value="">Decimal</option>
+                <option value="">Octal</option>
+                <option value="">Hexadecimal</option>
+            </select><br>
+            <button type="button" class="botao_converter">Converter</button>
+            <button type="button" class="botao_converter">Limpar</button>
+            <button type="button" class="botao_converter">Inverter</button>
+          </div>
+          <div class="mb-3">
+          
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Resultado"></textarea>
+            <button type="button" class="botao_converter">Copiar</button>
+          </div>
+    </div>
+
+</body>
+
+</html>
