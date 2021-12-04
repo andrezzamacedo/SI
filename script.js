@@ -17,7 +17,8 @@ function getopcao1() {
         document.getElementById("resultado").innerHTML = num2.toString(10);
     }
     if (document.getElementById("opcao1").value=='1' && document.getElementById("opcao2").value=='2'){
-        document.getElementById("resultado").innerHTML = num1
+        var num2= parseInt(num1,2);
+        document.getElementById("resultado").innerHTML = (num2.toString(2));
     }
     if(document.getElementById("opcao1").value=='2' && document.getElementById("opcao2").value=='2'){
         document.getElementById("resultado").innerHTML =(num1.toString(2));
