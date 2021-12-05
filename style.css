@@ -33,6 +33,11 @@
     border-radius: 7px;
 }
 
+#opcao2{
+    height: 40px;
+    border-radius: 7px;
+}
+
 #texto_label{
     color: white;
 }
