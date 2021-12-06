@@ -4,16 +4,23 @@
 }
 
 #fundo{
-    background-image: url(Apostas-em-Modo-Binario.jpg);
-    width: 100%;
+    background-image:url(Apostas-em-Modo-Binario.jpg);   
+    background-size: cover;
+}
+
+header{
+    background-color:darkblue;
+    color: white;
+    text-align: center;
+    padding: 3px;
 }
 
 #form{
     background-color: #000986;
     width: 50%;
-    height: 550px;
+    height: 540px;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 5%;
     padding: 50px;
     border-radius: 7px;
 }
@@ -45,4 +52,13 @@
 #titulo{
     color: white;
     margin-top: auto;
+}
+
+footer{
+    background-color:darkblue;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    position: relative;
+    top: 100px;
 }
