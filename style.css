@@ -1,64 +1,125 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 
-#fundo{
-    background-image:url(Apostas-em-Modo-Binario.jpg);   
-    background-size: cover;
-}
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(imagemprojeto.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
 
-header{
-    background-color:darkblue;
-    color: white;
-    text-align: center;
-    padding: 3px;
-}
+        /*Telemovel*/
 
-#form{
-    background-color: #000986;
-    width: 50%;
-    height: 540px;
-    margin: auto;
-    margin-top: 5%;
-    padding: 50px;
-    border-radius: 7px;
-}
+        #form{
+            background-color: #000986;
+            width: 100%;
+            height: 700px;
+            margin: auto;
+            margin-top: 0%;
+            margin-bottom: 0%;
+            padding: 50px;
+            border-radius: 7px;
+        }
 
-.botao_converter{
-    background-color: rgb(223, 208, 0);
-    width: 100px;
-    height: 40px;
-    border: none;
-    border-radius: 7px;
-    color: rgb(58, 58, 58);
-    margin-top: 10px;
-}
+        .botao_converter{
+            background-color:black;
+            width: 100px;
+            height: 40px;
+            border: none;
+            border-radius: 7px;
+            color: white;
+            margin-top: 10px;
+        }
 
-#opcao1{
-    height: 40px;
-    border-radius: 7px;
-}
+        #opcao1{
+            height: 40px;
+            border-radius: 7px;
+        }
 
-#opcao2{
-    height: 40px;
-    border-radius: 7px;
-}
+        #opcao2{
+            height: 40px;
+            border-radius: 7px;
+        }
 
-#texto_label{
-    color: white;
-}
+        #texto_label{
+            color: white;
+        }
 
-#titulo{
-    color: white;
-    margin-top: auto;
-}
+        #texto_label1{
+            color: white; 
+        }
 
-footer{
-    background-color:darkblue;
-    color: white;
-    text-align: center;
-    padding: 4px;
-    position: relative;
-    top: 100px;
-}
+        #titulo{
+            color: white;
+            margin-top: auto;
+        }
+
+        /*Tablet*/
+
+        @media only screen and (min-width: 768px){
+
+            #form{
+                background-color: #000986;
+                width: 70%;
+                height: 570px;
+                margin: auto;
+                margin-top: 7%;
+                padding: 50px;
+                border-radius: 7px;
+            }
+
+            .botao_converter{
+                background-color:black;
+                width: 100px;
+                height: 40px;
+                border: none;
+                border-radius: 7px;
+                color: white;
+                margin-top: 10px;
+            }
+
+            #opcao1{
+                height: 40px;
+                border-radius: 7px;
+            }
+
+            #opcao2{
+                height: 40px;
+                border-radius: 7px;
+            }
+
+            #texto_label{
+                color: white;
+            }
+
+            #texto_label1{
+                color: white; 
+            }
+
+            #titulo{
+                color: white;
+                margin-top: auto;
+            }
+        }
+
+        /*Portatil*/
+
+        @media only screen and (min-width: 1024px){
+
+        }
+
+        /*PC*/
+
+        @media only screen and (min-width: 1440px){
+
+
+        }
+
+        /*4K*/
+
+        @media only screen and (min-width: 2560px){
+
+
+        }
