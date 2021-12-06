@@ -13,16 +13,16 @@
     <h1>Conversor de Base</h1>
 </header>
 <body id="fundo">
-    <div id="form">
+    <form action="" id="form">
         <h4 id="titulo">Conversor Decimal, Binário, Hexa e Octal</h4>
         <div class="mb-3">
         <input type="text" class="form-control" id="numero" placeholder="Digite aqui o número"><br>
         <label id="texto_label">De</label><br>
         <select name="opcao1" id="opcao1">
-            <option value="1">2(Binário)</option>
-            <option value="2">10(Decimal)</option>
-            <option value="3">8(Octal)</option>
-            <option value="4">16(Hexadecimal)</option>
+            <option value="2">2(Binário)</option>
+            <option value="10">10(Decimal)</option>
+            <option value="8">8(Octal)</option>
+            <option value="16">16(Hexadecimal)</option>
         </select><br><br>
         <label id="texto_label1">Para</label><br>
             <select name="opcao2" id="opcao2">
@@ -32,14 +32,13 @@
                 <option value="16">16(Hexadecimal)</option>
             </select><br>
             <button type="button" class="botao_converter" onclick="getopcao1()">Converter</button>
-            <button type="button" class="botao_converter">Limpar</button>
-            <button type="button" class="botao_converter">Inverter</button>
+            <button type="button" class="botao_converter" onclick="getclear()">Limpar</button>
+            <button type="button" class="botao_converter" onclick="getswap()">Inverter</button>
           </div>
           <div class="mb-3">
             <textarea class="form-control" id="resultado" rows="3" placeholder="Resultado"></textarea>
-            <button type="button" class="botao_converter">Copiar</button>
           </div>
-    </div>
+    </form>
     <footer>
         <p>Copyright ®Andrezza Macedo, Filipe Coelho, João Rocha, Ricardo Sousa</p>
   </footer>
