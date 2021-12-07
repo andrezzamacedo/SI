@@ -30,8 +30,8 @@ function getopcao1() {
     }
     if (document.getElementById("opcao1").value=='8' && document.getElementById("opcao2").value=='10'){
         for(var i = num_string.length-1; i>= 0; i--){
-            if(num_string[i] <0 || num_string[i] >=8){
-                return document.getElementById("resultado").innerHTML = "ERRO: Valor Não Octal"
+            if(num_string[i] <0 || num_string[i] >=8 || num_string[i] >='a' && num_string[i] <='z' || num_string[i] >='A' && num_string[i] <='Z' ){
+                return document.getElementById("resultado").innerHTML = "ERRO: Valor Não Octal";
             }
         }
         var num2= parseInt(num1,8);
@@ -56,8 +56,8 @@ function getopcao1() {
     }
     if(document.getElementById("opcao1").value=='8' && document.getElementById("opcao2").value=='2'){
         for(var i = num_string.length-1; i>= 0; i--){
-            if(num_string[i] <0 || num_string[i] >=8){
-                return document.getElementById("resultado").innerHTML = "ERRO: Valor Não Octal"
+            if(num_string[i] <0 || num_string[i] >=8 || num_string[i] >='a' && num_string[i] <='z' || num_string[i] >='A' && num_string[i] <='Z' ){
+                return document.getElementById("resultado").innerHTML = "ERRO: Valor Não Octal";
             }
         }
         var num2 = parseInt(num1,8);
@@ -91,8 +91,8 @@ function getopcao1() {
     }     
     if(document.getElementById("opcao1").value=='8' && document.getElementById("opcao2").value=='16'){ 
         for(var i = num_string.length-1; i>= 0; i--){
-            if(num_string[i] <0 || num_string[i] >=8){
-                return document.getElementById("resultado").innerHTML = "ERRO: Valor Não Octal"
+            if(num_string[i] <0 || num_string[i] >=8 || num_string[i] >='a' && num_string[i] <='z' || num_string[i] >='A' && num_string[i] <='Z' ){
+                return document.getElementById("resultado").innerHTML = "ERRO: Valor Não Octal";
             }
         }
         var num2 = parseInt(num1,8);         
@@ -107,6 +107,11 @@ function getopcao1() {
         document.getElementById("resultado").innerHTML = hex     
     }
     if(document.getElementById("opcao1").value=='2' && document.getElementById("opcao2").value=='8'){         
+        for(var i = num_string.length-1; i>= 0; i--){
+            if(num_string[i] != 0 && num_string[i] != 1){
+                return document.getElementById("resultado").innerHTML = "ERRO: Valor Não Binário";
+            }
+        }
         var num2 = parseInt(num1,2);         
         document.getElementById("resultado").innerHTML =(num2.toString(8));     
     }     
@@ -120,8 +125,8 @@ function getopcao1() {
     }     
     if(document.getElementById("opcao1").value=='8' && document.getElementById("opcao2").value=='8'){         
         for(var i = num_string.length-1; i>= 0; i--){
-            if(num_string[i] <0 || num_string[i] >=8){
-                return document.getElementById("resultado").innerHTML = "ERRO: Valor Não Octal"
+            if(num_string[i] <0 || num_string[i] >=8 || num_string[i] >='a' && num_string[i] <='z' || num_string[i] >='A' && num_string[i] <='Z' ){
+                return document.getElementById("resultado").innerHTML = "ERRO: Valor Não Octal";
             }
         }
         document.getElementById("resultado").innerHTML = num1     
