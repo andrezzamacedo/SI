@@ -4,7 +4,7 @@ function getopcao1() {
     var num_string= document.getElementById("numero").value;
     if (document.getElementById("opcao1").value=='16' && document.getElementById("opcao2").value=='10'){
         for(var i = num_string.length-1; i>=0; i--){
-            if(num_string[i] >='g' && num_string <='z'){
+            if(num_string[i] >='g' && num_string <='z' || num_string[i] >= 'G' && num_string[i] <= 'Z'){
                 return document.getElementById("resultado").innerHTML = "ERRO: Valor Não Hexadecimal";
             }
         }
@@ -65,7 +65,7 @@ function getopcao1() {
     }
     if(document.getElementById("opcao1").value=='16' && document.getElementById("opcao2").value=='2'){
         for(var i = num_string.length-1; i>=0; i--){
-            if(num_string[i] >='g' && num_string <='z'){
+            if(num_string[i] >='g' && num_string <='z' || num_string[i] >= 'G' && num_string[i] <= 'Z'){
                 return document.getElementById("resultado").innerHTML = "ERRO: Valor Não Hexadecimal";
             }
         }
@@ -100,7 +100,7 @@ function getopcao1() {
     }     
     if(document.getElementById("opcao1").value=='16' && document.getElementById("opcao2").value=='16'){         
         for(var i = num_string.length-1; i>=0; i--){
-            if(num_string[i] >='g' && num_string <='z'){
+            if(num_string[i] >='g' && num_string <='z' || num_string[i] >= 'G' && num_string[i] <= 'Z'){
                 return document.getElementById("resultado").innerHTML = "ERRO: Valor Não Hexadecimal";
             }
         }
@@ -128,7 +128,7 @@ function getopcao1() {
     }     
     if(document.getElementById("opcao1").value=='16' && document.getElementById("opcao2").value=='8'){         
         for(var i = num_string.length-1; i>=0; i--){
-            if(num_string[i] >='g' && num_string <='z'){
+            if(num_string[i] >='g' && num_string <='z' || num_string[i] >= 'G' && num_string[i] <= 'Z'){
                 return document.getElementById("resultado").innerHTML = "ERRO: Valor Não Hexadecimal";
             }
         }
